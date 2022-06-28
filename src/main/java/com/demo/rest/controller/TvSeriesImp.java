@@ -21,14 +21,14 @@ public class TvSeriesImp {
     @RestClient
     private TvSeriesStub proxy;
 
-    private List<TvSeries> episodes = new ArrayList();
+    private List<TvSeries> series = new ArrayList();
     private  TvSeries episode;
-
+    
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public Response get() {
             TvSeries episode = proxy.get("game of thrones");
-            episodes.add(episode);
-            return Response.ok(episodes).build();
+//          series.add(series);
+            return Response.ok(episode).build();    
     }
 }
