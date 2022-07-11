@@ -10,7 +10,3 @@ by acting as a proxy.
 To run
 mvn clean package
 mvn liberty:dev
-
-This type of application is an exercise in prototyping, therefore it is not unusual
-for me to find unreported Software Bugs.Not many people do Protoyping I guess.
-https://github.com/OpenLiberty/open-liberty/issues/21547
